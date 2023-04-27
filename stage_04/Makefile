@@ -3,7 +3,7 @@ CFLAGS = -Wall
 
 all: nav_data
 
-nav_data: nav_data.c
+nav_data: nav_data_stub.c
 	$(CC) $(CFLAGS) -o $@ $^
 
 .PHONY: clean
